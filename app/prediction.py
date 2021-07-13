@@ -1,6 +1,5 @@
 # from matplotlib import pyplot as plt
 from PIL import Image
-import os
 # print("PYTHONPATH:", os.environ.get('PYTHONPATH'))
 # print("PATH:", os.environ.get('PATH'))
 
@@ -9,15 +8,10 @@ import os
 # mkl.domain_set_num_threads(1, domain='fft') # Intel(R) MKL FFT functions to run sequentially
 
 from mtcnn.mtcnn import MTCNN
-
-import pandas
 import numpy as np
-import cv2
-import os
 from keras.models import load_model
 from keras.preprocessing.image import img_to_array
 from keras import backend as K
-from pkg_resources import NullProvider
 
 class Model:
 
