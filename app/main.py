@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from prediction import Model
+from app.prediction import Model
 
 import json
 
@@ -30,6 +30,5 @@ def predict():
 def home():
     return 'home page'
 
-if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0')
+
     
