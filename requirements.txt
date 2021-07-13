@@ -6,5 +6,5 @@ Keras-Applications
 Keras-Preprocessing
 numpy
 Pillow
+gunicorn
 mtcnn==0.1.1
-
