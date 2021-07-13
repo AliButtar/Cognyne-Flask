@@ -97,8 +97,8 @@ Send2Trash==1.5.0
 # setuptools==52.0.0.post20210125
 # sip==4.19.13
 six==1.16.0
-tensorboard==2.4.0
-tensorboard-plugin-wit==1.6.0
+# tensorboard==2.4.0
+# tensorboard-plugin-wit==1.6.0
 tensorflow==2.3.0
 tensorflow-estimator==2.5.0
 termcolor==1.1.0
