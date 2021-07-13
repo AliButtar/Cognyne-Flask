@@ -23,7 +23,7 @@ class Model:
 
     def __init__(self):
         self.faceDetectorModel = MTCNN()
-        self.faceRecognizierModel = load_model('F:\\ML WORK\\Final Year Project\\face-recognition')
+        self.faceRecognizierModel = load_model('face-recognition')
         
 
     def extractFace(self, pixels, required_size=(224, 224)):
