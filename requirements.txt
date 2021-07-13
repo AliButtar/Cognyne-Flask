@@ -31,6 +31,7 @@ google-auth=1.32.1=pyhd3eb1b0_0
 google-auth-oauthlib=0.4.4=pyhd3eb1b0_0
 google-pasta=0.2.0=py_0
 grpcio=1.36.1=py38hc60d5dd_1
+gunicorn=20.1.0=pypi_0
 h5py=2.10.0=py38h5e291fa_0
 hdf5=1.10.4=h7ebc959_0
 icc_rt=2019.0.0=h0cc432a_1
