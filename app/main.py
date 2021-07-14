@@ -26,7 +26,7 @@ def predict():
         print(exception)
         return jsonify({"error": "could not predict"})
 
-@app.route('/home')
+@app.route('/')
 def home():
     return 'home page'
 
