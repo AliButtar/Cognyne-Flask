@@ -1,10 +1,10 @@
 
 Flask==2.0.1
-tensorflow
-Keras
-Keras-Applications
-Keras-Preprocessing
-numpy
-Pillow
-gunicorn
+# tensorflow
+# Keras
+# Keras-Applications
+# Keras-Preprocessing
+# numpy
+# Pillow
+# gunicorn
 mtcnn==0.1.1
