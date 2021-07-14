@@ -11,7 +11,8 @@ model = Model()
 def predict():
     
     try:
-        image = request.files.get('img', '')
+        image = request.json
+        # print(image)
 
         result = model.run_model(image)
 

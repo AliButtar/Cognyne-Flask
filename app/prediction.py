@@ -12,6 +12,8 @@ import numpy as np
 from keras.models import load_model
 from keras.preprocessing.image import img_to_array
 from keras import backend as K
+import base64
+import io
 
 class Model:
 
@@ -56,8 +58,11 @@ class Model:
         return yhat
 
     def readImage(self, image):
-        
-        img = Image.open(image)
+        # print(image)
+        imgdata = base64.b64decode(str(image['base64']))
+        img = Image.open(io.BytesIO(imgdata))
+
+        # img.save('img.jpg')
 
         finalImage = np.array(img)
 
