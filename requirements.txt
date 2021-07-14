@@ -1,5 +1,6 @@
 
 Flask==2.0.1
+opencv-python-headless
 # tensorflow
 # Keras
 # Keras-Applications
